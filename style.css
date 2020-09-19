@@ -1,0 +1,278 @@
+body {
+
+background-image: linear-gradient(to top, #f3e7e9 50%, #e3eeff 99%, #e3eeff 100%);
+  background-repeat: no-repeat;
+background-attachment:fixed;
+overflow:hidden;
+height : 100vh;
+}
+/*------------ Homepage Menu Circles ------------- */
+body { 
+  font-family: 'Open Sans', 'sans-serif';
+  color: black;
+  overflow: hidden;
+  height : 100vh;
+}
+
+@media only screen and (min-width: 601px) {
+.item-1{
+  position: absolute;
+  display: block;
+  top: 4em;
+  
+  width: 60%;
+  
+  font-size: 3.9375rem;
+
+	animation-duration: 60s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.item-1{
+  position: absolute;
+  display: block;
+  top: 2.3em;
+  
+  width: 60%;
+  
+  font-size: 2.9375rem;
+
+	animation-duration: 60s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}	
+}
+
+@media only screen and (min-width: 601px) {
+.item-1{
+	animation-name: anim-2;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.item-1{
+	animation-name: anim-3;
+}
+}
+
+@keyframes anim-2 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 39%; opacity: 1; }
+}
+
+@keyframes anim-3 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 16%; opacity: 1; }
+}
+
+@media only screen and (min-width: 601px) {
+.circle1 {
+margin-left: 50%;
+margin-top: 40px;
+margin-bottom: 40px;
+border-radius: 50%;
+width: 17%;
+max-width:130px;
+position: absolute;
+opacity: 0.0;
+transform-origin:50% 250%;
+border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+background: rgba(255,255,255,0.05);
+-webkit-transition: ease-in-out, width .35s ease-in-out; /* Safari 3.1 to 6.0 */
+    transition: ease-in-out, width .35s ease-in-out;
+        
+}        
+}
+
+@media only screen and (max-width: 600px) {
+.circle1 {
+margin-left: 40%;
+margin-top: 40px;
+margin-bottom: 40px;
+border-radius: 50%;
+width: 17%;
+max-width:130px;
+position: absolute;
+opacity: 0.0;
+transform-origin:50% 250%;
+border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+background: rgba(255,255,255,0.05);
+-webkit-transition: ease-in-out, width .35s ease-in-out; /* Safari 3.1 to 6.0 */
+    transition: ease-in-out, width .35s ease-in-out;
+        
+}  	
+}
+
+.default-origin {
+
+	animation: defaultOrigin .5s swing forwards;
+
+}
+
+@keyframes defaultOrigin {
+   0% {transform-origin:50% 160%; }
+
+   15% {transform-origin: 50% 50%;}
+
+
+}
+
+
+
+.circle-border {
+border: 1px solid #30cbfe;
+}
+
+.circle-solid{
+background-color: white;
+}
+
+.circle1:before {
+content: "";
+display: block;
+padding-top: 100%;
+}
+
+.circle-inner {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+text-align: center;
+opacity: 0;
+}
+
+.score-text {
+margin: auto;
+margin-top: 68%;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+height: 1em;
+line-height: 1em;
+color: black;
+opacity: 0;
+font-family: 'Dosis', sans-serif;
+font-weight: 400;
+
+
+}
+
+.score-text {
+height: 2.5vw;
+line-height: 2.5vw;
+font-size: 1.8vmax;
+}
+
+/*-------------------------*/
+
+/* ----Ripple on hover------- */
+div.circle1:hover div.wave {
+	
+	
+	 animation: waves 2.5s linear;
+    animation-delay: .1s;
+	transform-origin:50% 50%;
+	
+
+
+}
+
+div.circle1:hover div.wave2 {
+	animation: waves 2.5s linear .7s forwards;
+	transform-origin:50% 50%;
+	
+}
+
+div.circle1:hover div.wave3 {
+	animation: waves 2.5s linear 1.3s forwards;
+	transform-origin:50% 50%;
+	
+}
+
+
+div.wave {
+ 	background: #1394fd;
+	
+	margin-left: 10%;
+	margin-top: -90%;
+	border-radius: 50%;
+	width: 80%;
+	position: absolute;
+	transform-origin:50% 160%;
+	opacity: 0;
+	-webkit-transition: ease-in-out, width .35s ease-in-out; /* Safari 3.1 to 6.0 */
+    transition: ease-in-out, width .35s ease-in-out;
+	
+}
+div.wave:before {
+	
+content: "";
+display: block;
+padding-top: 100%;
+
+}
+
+#circle2 div.wave {
+	background: #1394fd;
+	
+}
+
+#circle3 div.wave {
+	
+	background: #1394fd;
+	
+}
+
+#circle4 div.wave {
+	
+	background: #1394fd;
+}
+#circle5 div.wave {
+	
+	background: #1394fd;
+}
+#circle6 div.wave {
+	
+	background: #1394fd;
+}
+#circle7 div.wave {
+	
+	background: #1394fd;
+}
+
+@-webkit-keyframes waves {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  
+  25% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/*--------------------------*/
+
+/*---- icons within menu circles ----*/
+.homeMenuIcon {
+	
+	width:50%;
+    height:auto;
+    display:block;
+    margin-left: 25%;
+	margin-top: 18%;
+    
+}
