@@ -9,3 +9,10 @@ A leave management system is an all-in-one platform that handles all employee va
 - Improves communication
 - Offers real-time visibility of data
 - Improves response time over leave application
+
+## Screenshots
+- Login Page 1
+<img src="https://i.ibb.co/C1W3sXG/Screenshot-2020-10-02-225752.jpg">
+
+- Login Page 1 GIF 
+<img src="https://i.ibb.co/hVct1Gk/4h3wbw.gif"  width="50%" height="50%" >
