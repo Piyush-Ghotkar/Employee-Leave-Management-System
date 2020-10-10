@@ -15,4 +15,4 @@ A leave management system is an all-in-one platform that handles all employee va
 <img src="https://i.ibb.co/C1W3sXG/Screenshot-2020-10-02-225752.jpg">
 
 - Login Page 1 GIF 
-<img src="https://i.ibb.co/hVct1Gk/4h3wbw.gif"  width="50%" height="50%" >
+<img src="https://i.ibb.co/Lk0dnn1/ezgif-com-gif-maker.gif"  width="50%" height="50%" >
